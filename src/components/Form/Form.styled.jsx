@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 
-export const FormBox = styled.form`
-
-`;
+export const FormBox = styled.form``;
 
 export const Input = styled.input`
   display: block;
