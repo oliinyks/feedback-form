@@ -1,8 +1,13 @@
-export const theme = {
+export const theme = Object.freeze({
   colors: {
-    background: 'rgba(20, 28, 36, 1)',
-    primary: 'rgba(255, 255, 255, 1)',
-    secondary: 'rgba(171, 171, 171, 1)',
-    accent: 'rgba(0, 197, 255, 1)',
+    assent: 'rgba(250, 211, 79, 1)',
+    hover: 'rgba(45, 45, 45, 1)',
+
+    title: 'rgba(62, 62, 62, 1)',
+    textSecond: 'rgba(255, 255, 255, 1)',
+    link: 'rgba(105, 105, 105, 1)',
+
+    border: '#DCDCDC',
+    footer: 'rgba(216, 216, 216, 1)',
   },
-};
+});
